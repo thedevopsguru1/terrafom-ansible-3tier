@@ -3,7 +3,7 @@
   hosts: db
   become: yes
   ignore_errors: true
-  gather_facts: no
+  #gather_facts: no
   become_user: root
   vars:
     proxy_env:
