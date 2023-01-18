@@ -1,6 +1,6 @@
 ---
 - name : Configure consul servers
-  hosts: consul
+  hosts: frontend
   become: yes
   become_user: root
   vars:
