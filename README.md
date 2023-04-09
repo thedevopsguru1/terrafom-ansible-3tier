@@ -1,5 +1,10 @@
 # terrafom-ansible-3tier
-Don't forget to install terraform.py
+## Install terraform
+https://github.com/devopstrainingschool/Installing-terraform.
+
+## Configure terraform to aws
+https://github.com/devopstrainingschool/Terraform-with-AWS-configuration
+### Don't forget to install terraform.py
 ```
 yum install python3-pip -y
 ```
@@ -7,6 +12,14 @@ yum install python3-pip -y
 ```
 pip3 install python-terraform
 ```
+## Install ansible
+```
+yum install epel-release -y
+```
+```
+yum install ansible -y
+```
+
 ## finally run :
 ```
 bash scripts/deploy-with-ansible.sh
