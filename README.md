@@ -22,6 +22,8 @@ yum install epel-release -y
 ```
 yum install ansible -y
 ```
+## Copy terraform.py to /usr/local/bin/
+```
 
 ## finally run :
 ```
