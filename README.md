@@ -26,6 +26,9 @@ yum install ansible -y
 ```
 mv terraform.py /usr/local/bin/
 ```
+```
+chmod +x /usr/local/bin/terraform.py
+```
 ## finally run :
 ```
 bash scripts/deploy-with-ansible.sh
