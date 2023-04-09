@@ -8,6 +8,9 @@ https://github.com/devopstrainingschool/Terraform-with-AWS-configuration
 ```
 yum install python3-pip -y
 ```
+```
+sudo yum install jq -y
+```
 
 ```
 pip3 install python-terraform
