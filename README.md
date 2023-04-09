@@ -7,3 +7,7 @@ yum install python3-pip -y
 ```
 pip3 install python-terraform
 ```
+## finally run :
+```
+bash scripts/deploy-with-ansible.sh
+```
