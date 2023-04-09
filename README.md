@@ -5,5 +5,5 @@ yum install python3-pip -y
 ```
 
 ```
-pip install python-terraform
+pip3 install python-terraform
 ```
