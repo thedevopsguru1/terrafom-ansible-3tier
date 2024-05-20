@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "devopstrainingschool"
+    bucket = "macie"
     key    = "3tier/terraform.tfstate"
     region = "us-east-2"
   }
