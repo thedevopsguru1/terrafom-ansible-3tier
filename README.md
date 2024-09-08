@@ -34,21 +34,10 @@ chmod +x /usr/local/bin/terraform.py
 bash scripts/deploy-with-ansible.sh
 ```
 NB: change the nbring provider to ansible
+Provider  does not have a package available for your current platform, darwin_arm64
 ```
-terraform {
-  required_providers {
-    ansible = {
-      version = "~> 1.3.0"
-      source  = "ansible/ansible"
-      
-    }
-    aws = {
-      source = "hashicorp/aws"
-      version = "~> 4.0.0"
-    }
-  }
-}
-provider "aws" {
-    region  = "${var.region}"
-}
+brew uninstall terraform
+brew install tfenv
+TFENV_ARCH=amd64 tfenv install 1.3.3
+tfenv use 1.3.3
 ```
