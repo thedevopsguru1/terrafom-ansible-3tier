@@ -1,9 +1,8 @@
 terraform {
   required_providers {
     ansible = {
-      version = "~> 1.3.0"
-      source  = "ansible/ansible"
-      
+      source = "nbering/ansible"
+      version = "1.0.4"
     }
     aws = {
       source = "hashicorp/aws"
@@ -14,3 +13,4 @@ terraform {
 provider "aws" {
     region  = "${var.region}"
 }
+provider "ansible" {}
